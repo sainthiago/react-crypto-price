@@ -1,7 +1,7 @@
 {
   "name": "react-crypto-price",
   "version": "1.0.0",
-  "description": "",
+  "description": "React hook to get prices of crypto in USDT from Binance API.",
   "main": "index.ts",
   "scripts": {
     "start": "react-scripts start"
