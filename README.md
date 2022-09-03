@@ -9,9 +9,26 @@ React hook that fetch the price of crypto in USDT from Binance API.
 
 `npm i react-crypto-price`
 
-## Demo
+## Live Demo
 
 https://codesandbox.io/s/react-crypto-price-example-7unmvs
+
+## Example
+
+```javascript
+import { useCryptoPriceController, ChainSymbols } from "react-crypto-price";
+
+export default function App() {
+  const { price } = useCryptoPriceController({ symbol: ChainSymbols.NEAR });
+  return (
+    <div className="App">
+      <h1>react-crypto-price example</h1>
+      <h3>current NEAR price in USDT</h3>
+      <p>{price}$</p>
+    </div>
+  );
+}
+```
 
 ## API
 
