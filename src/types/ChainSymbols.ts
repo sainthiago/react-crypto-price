@@ -318,7 +318,7 @@ export enum ChainSymbols {
   DF = "DF",
   JUV = "JUV",
   PSG = "PSG",
-  SHIBA = "SHIBA",
+  SHIB = "SHIB",
   LUNC = "LUNC",
   BVND = "BVND",
   GRT = "GRT",
