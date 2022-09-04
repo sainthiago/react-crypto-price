@@ -1,2 +1,2 @@
-export * from "./types/ChainSymbols";
-export * from "./controllers/index";
+export * from "./types";
+export * from "./controllers";
