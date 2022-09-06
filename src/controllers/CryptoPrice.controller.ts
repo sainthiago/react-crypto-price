@@ -6,10 +6,10 @@ const useCryptoPriceController = ({ symbol }: { symbol: ChainSymbols }) => {
 
   const getCryptoPrice = async () => {
     try {
-      const nearPriceData = await fetch(
+      const priceData = await fetch(
         `https://api.binance.com/api/v3/ticker/price?symbol=${symbol}USDT`
       );
-      const final = await nearPriceData.json();
+      const final = await priceData.json();
 
       setPrice(final.price);
     } catch (error) {
